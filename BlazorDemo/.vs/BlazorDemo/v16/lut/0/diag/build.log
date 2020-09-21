@@ -1,0 +1,53 @@
+[22:18:17.296 Verbose] - BuildManager - System.IO.FileNotFoundException: Could not find file 'C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\b\BlazorDemo\bin\Debug\netstandard2.1\BlazorDemo.dll'.
+File name: 'C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\b\BlazorDemo\bin\Debug\netstandard2.1\BlazorDemo.dll'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Roslyn.Utilities.FileUtilities.OpenFileStream(String path)
+   at Microsoft.CodeAnalysis.MetadataReference.CreateFromFile(String path, MetadataReferenceProperties properties, DocumentationProvider documentation)
+   at Microsoft.CodeAnalysis.LiveUnitTesting.BuildManagement.CompilationComparer.TryGetReference(CommandLineReference commandLineReference, Logger logger, MetadataReference& reference)
+[22:18:17.335 Verbose] - BuildManager - C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\xUnitTest\UnitTest.cs(1,7): error CS0246: The type or namespace name 'BlazorDemo' could not be found (are you missing a using directive or an assembly reference?)
+[22:18:17.335 Verbose] - BuildManager - C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\xUnitTest\UnitTest.cs(15,34): error CS0246: The type or namespace name 'Calculator' could not be found (are you missing a using directive or an assembly reference?)
+[22:18:17.335 Verbose] - BuildManager - C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\xUnitTest\UnitTest.cs(31,34): error CS0246: The type or namespace name 'Calculator' could not be found (are you missing a using directive or an assembly reference?)
+[22:18:17.335 Verbose] - BuildManager - C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\xUnitTest\UnitTest.cs(47,34): error CS0246: The type or namespace name 'Calculator' could not be found (are you missing a using directive or an assembly reference?)
+[22:18:17.335 Verbose] - BuildManager - C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\xUnitTest\UnitTest.cs(63,34): error CS0246: The type or namespace name 'Calculator' could not be found (are you missing a using directive or an assembly reference?)
+[22:18:17.335 Verbose] - BuildManager - C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\xUnitTest\UnitTest.cs(78,34): error CS0246: The type or namespace name 'Calculator' could not be found (are you missing a using directive or an assembly reference?)
+[22:18:17.335 Verbose] - BuildManager - C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\xUnitTest\UnitTest.cs(93,34): error CS0246: The type or namespace name 'Calculator' could not be found (are you missing a using directive or an assembly reference?)
+[22:18:17.335 Verbose] - BuildManager - C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Roslyn\Microsoft.CSharp.Core.targets(70,5): error MSB4181: The "Csc" task returned false but did not log an error.
+[22:18:17.340 Verbose] - BuildManager - Some of the file paths defined in the csproj under the Live Unit Testing build path are missing. Verify whether these files should be present under the Live Unit Testing build path and if necessary update the csproj definition to look these files up in a different place.
+[22:18:17.340 Verbose] - BuildManager - Item _OutputPathItem 'C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\b\xUnitTest\Debug\netcoreapp3.1\' evaluated via:
+_OutputPathItem: '$(OutDir)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:272
+  OutDir: '$(OutputPath)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:193
+    OutputPath: '$(OutputPath)$(TargetFramework.ToLowerInvariant())\' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets:186
+      OutputPath: '$(BaseOutputPath)$(Configuration)\' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.DefaultOutputPaths.targets:33
+        BaseOutputPath: 'C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\b\xUnitTest\' @ C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\xUnitTest\xUnitTest.csproj:0
+        Configuration: 'Debug'
+[22:18:17.340 Verbose] - BuildManager - Item AppConfigFileDestination 'C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\b\xUnitTest\Debug\netcoreapp3.1\xUnitTest.dll.config' evaluated via:
+AppConfigFileDestination: '$(OutDir)$(TargetFileName).config' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:303
+  OutDir: '$(OutputPath)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:193
+    OutputPath: '$(OutputPath)$(TargetFramework.ToLowerInvariant())\' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets:186
+      OutputPath: '$(BaseOutputPath)$(Configuration)\' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.DefaultOutputPaths.targets:33
+        BaseOutputPath: 'C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\b\xUnitTest\' @ C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\xUnitTest\xUnitTest.csproj:0
+        Configuration: 'Debug'
+  TargetFileName: '$(TargetName)$(TargetExt)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:212
+    TargetName: '$(AssemblyName)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:204
+      AssemblyName: '$(MSBuildProjectName)' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.props:32
+        MSBuildProjectName: 'xUnitTest'
+    TargetExt: '.dll' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.BeforeCommon.targets:82
+[22:18:17.340 Verbose] - BuildManager - Item _DebugSymbolsOutputPath 'C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\b\xUnitTest\Debug\netcoreapp3.1\xUnitTest.pdb' evaluated via:
+_DebugSymbolsOutputPath: '@(_DebugSymbolsIntermediatePath->'$(OutDir)%(Filename)%(Extension)')' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:372
+  OutDir: '$(OutputPath)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:193
+    OutputPath: '$(OutputPath)$(TargetFramework.ToLowerInvariant())\' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets:186
+      OutputPath: '$(BaseOutputPath)$(Configuration)\' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.DefaultOutputPaths.targets:33
+        BaseOutputPath: 'C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\b\xUnitTest\' @ C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\xUnitTest\xUnitTest.csproj:0
+        Configuration: 'Debug'
+[22:18:17.340 Verbose] - BuildManager - Item _ApplicationManifestFinal 'C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\b\xUnitTest\Debug\netcoreapp3.1\Native.xUnitTest.manifest' evaluated via:
+_ApplicationManifestFinal: '$(OutDir)$(_DeploymentTargetApplicationManifestFileName)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:410
+  OutDir: '$(OutputPath)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:193
+    OutputPath: '$(OutputPath)$(TargetFramework.ToLowerInvariant())\' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets:186
+      OutputPath: '$(BaseOutputPath)$(Configuration)\' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.DefaultOutputPaths.targets:33
+        BaseOutputPath: 'C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\b\xUnitTest\' @ C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\xUnitTest\xUnitTest.csproj:0
+        Configuration: 'Debug'
+  _DeploymentTargetApplicationManifestFileName: 'Native.$(AssemblyName).manifest' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:228
+    AssemblyName: '$(MSBuildProjectName)' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.props:32
+      MSBuildProjectName: 'xUnitTest'

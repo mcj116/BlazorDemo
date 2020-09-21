@@ -20,4 +20,8 @@ obj\Debug\netstandard2.1\blazor\linker\System.Text.Encodings.Web.dll
 obj\Debug\netstandard2.1\blazor\linker\System.Text.Json.dll
 obj\Debug\netstandard2.1\blazor\linker\WebAssembly.Bindings.dll
 obj\Debug\netstandard2.1\blazor\linker\WebAssembly.Net.Http.dll
+obj\Debug\netstandard2.1\blazor\linker\xunit.abstractions.dll
+obj\Debug\netstandard2.1\blazor\linker\xunit.assert.dll
+obj\Debug\netstandard2.1\blazor\linker\xunit.core.dll
+obj\Debug\netstandard2.1\blazor\linker\xunit.execution.dotnet.dll
 obj\Debug\netstandard2.1\blazor\linker\BlazorDemo.pdb

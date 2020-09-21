@@ -1,0 +1,10 @@
+C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\i\BlazorDemo\netstandard2.1\BlazorDemo.AssemblyInfoInputs.cache
+C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\i\BlazorDemo\netstandard2.1\BlazorDemo.AssemblyInfo.cs
+C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\i\BlazorDemo\netstandard2.1\BlazorDemo.RazorComponent.input.cache
+C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\i\BlazorDemo\netstandard2.1\RazorDeclaration\App.razor.g.cs
+C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\i\BlazorDemo\netstandard2.1\RazorDeclaration\Pages\Calculator.razor.g.cs
+C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\i\BlazorDemo\netstandard2.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\i\BlazorDemo\netstandard2.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\i\BlazorDemo\netstandard2.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\i\BlazorDemo\netstandard2.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\i\BlazorDemo\netstandard2.1\RazorDeclaration\_Imports.razor.g.cs

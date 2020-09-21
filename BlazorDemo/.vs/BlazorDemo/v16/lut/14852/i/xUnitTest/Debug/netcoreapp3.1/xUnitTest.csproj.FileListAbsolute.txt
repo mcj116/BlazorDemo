@@ -1,0 +1,2 @@
+C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\i\xUnitTest\Debug\netcoreapp3.1\xUnitTest.AssemblyInfoInputs.cache
+C:\Users\Michael\source\repos\ASPCore.BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\i\xUnitTest\Debug\netcoreapp3.1\xUnitTest.AssemblyInfo.cs

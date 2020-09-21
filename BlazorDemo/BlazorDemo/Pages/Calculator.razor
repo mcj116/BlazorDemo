@@ -43,34 +43,11 @@
         <div class="col-md-2">
             <button @onclick="DivideNumbers" class="btn btn-info">Divide (/)</button>
         </div>
+        <div class="col-md-2">
+            <button @onclick="MaxNumbers" class="btn btn-group">Max</button>
+        </div>
+        <div class="col-md-2">
+            <button @onclick="PowerNumbers" class="btn btn-danger">Pow</button>
+        </div>
     </div>
 </div>
-
-@code {
-    string num1;
-    string num2;
-    string finalresult;
-    void AddNumbers()
-    {
-        finalresult = (Convert.ToDouble(num1) + Convert.ToDouble(num2)).ToString();
-    }
-    void SubtractNumbers()
-    {
-        finalresult = (Convert.ToDouble(num1) - Convert.ToDouble(num2)).ToString();
-    }
-    void MultiplyNumbers()
-    {
-        finalresult = (Convert.ToDouble(num1) * Convert.ToDouble(num2)).ToString();
-    }
-    void DivideNumbers()
-    {
-        if (Convert.ToDouble(num2) != 0)
-        {
-            finalresult = (Convert.ToDouble(num1) / Convert.ToDouble(num2)).ToString();
-        }
-        else
-        {
-            finalresult = "Cannot Divide by Zero";
-        }
-    }
-}
